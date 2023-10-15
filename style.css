@@ -76,3 +76,46 @@ footer {
 hr {
   border: 1px solid black;
 }
+
+.header-container {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: center;
+}
+
+.header-container nav {
+  margin-left: 30px;
+}
+
+.section-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.text-container {
+  flex: 1;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.portfolio-container{
+  display: flex;
+  align-items: start;
+}
+
+.portfolio-container p{
+  flex: 1;
+  font-size: 14px;
+}
+
+.portfolio-container-img-2{
+  height: 230px;
+}
+.portfolio-container-img-3{
+  height: 240px;
+}
